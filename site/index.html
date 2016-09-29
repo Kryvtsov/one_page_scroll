@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>My One Page сайт</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="На этой странице представлен маленький One Page сайтик">
+    <meta name="author" content="Владимир Кривцов">
+     <!-- Работа на устройствах эпл в адаптивном режиме -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Для интернет эксплорера в режиме Edge --> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Иконка сайта -->
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
+    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+    <!-- Стили -->
+    <link rel="stylesheet" href="fullpage/jquery.fullPage.css">
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+
+  <body>
+      <ul id="mainMenu">
+        <li class="menu__li" data-menuanchor="Page1" class="active"><a class="menu__a" href="#Page1">Верх</a></li>
+        <li class="menu__li" data-menuanchor="Page2"><a class="menu__a" href="#Page2">ТХ</a></li>
+        <li class="menu__li" data-menuanchor="Page3"><a class="menu__a" href="#Page3">Состав</a></li>
+        <li class="menu__li" data-menuanchor="Page4"><a class="menu__a" href="#Page4">Бонусы</a></li>
+        <li class="menu__li" data-menuanchor="Page5"><a class="menu__a" href="#Page5">Купить</a></li>
+        <li class="menu__li" data-menuanchor="Page6"><a class="menu__a" href="#Page6">Отзывы</a></li>
+        <li class="menu__li" data-menuanchor="Page7"><a class="menu__a" href="#Page7">Гарантия</a></li>
+      </ul>
+      <div id="fullpage">
+        <div class="section">Page1</div>
+        <div class="section">Page2</div>
+        <div class="section">
+             <div class="slide" data-anchor="Slide1">Slide1</div>
+             <div class="slide" data-anchor="Slide2">Slide2</div>
+             <div class="slide" data-anchor="Slide3">Slide3</div>
+             <div class="slide" data-anchor="Slide4">Slide4</div>
+             <div class="slide" data-anchor="Slide5">Slide5</div>
+             <div class="slide" data-anchor="Slide6">Slide6</div>
+             <div class="slide" data-anchor="Slide7">Slide7</div>
+             <div class="slide" data-anchor="Slide8">Slide8</div>
+             <div class="slide" data-anchor="Slide9">Slide9</div>
+        </div>
+        <div class="section">
+             <div class="slide" data-anchor="Slide1">Slide1</div>
+             <div class="slide" data-anchor="Slide2">Slide2</div>
+             <div class="slide" data-anchor="Slide3">Slide3</div>
+             <div class="slide" data-anchor="Slide4">Slide4</div>
+        </div>
+        <div class="section">Page5</div>
+        <div class="section">Page6</div>
+        <div class="section">Page7</div>
+      </div>
+    
+    <!--уточнить JQ
+    <script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+    -->
+    <script src="js/jquery.min.js"></script>
+    <script src="fullpage/jquery.fullPage.min.js">
+    </script>
+    <script src="js/js.js"></script>
+  </body>
+</html>
